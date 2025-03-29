@@ -34,7 +34,6 @@ public class Paciente {
     @OneToMany(mappedBy = "paciente", cascade = CascadeType.ALL)
     private List<Consulta> consultas;
 
-    // Construtores, se não estiver usando Lombok
     public Paciente() {
     }
 

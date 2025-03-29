@@ -1,4 +1,4 @@
-package com.gerenciadorconsultas.entity;
+package com.gerenciadordeconsultas.entity;
 
 import com.gerenciadordeconsultas.entity.Medico;
 import jakarta.persistence.*;
