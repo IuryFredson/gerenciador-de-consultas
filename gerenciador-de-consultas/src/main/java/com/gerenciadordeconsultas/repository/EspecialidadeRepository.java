@@ -11,4 +11,6 @@ public interface EspecialidadeRepository extends JpaRepository<Especialidade, Lo
     Optional<Especialidade> findByNome(String nome);
 
     List<Especialidade> findByNomeContainingIgnoreCase(String nome);
+
+    boolean existsByNome(String nome);
 }
